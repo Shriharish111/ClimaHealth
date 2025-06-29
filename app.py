@@ -12,7 +12,7 @@ model = genai.GenerativeModel("models/chat-bison-001")
 # =============================
 # Load Disease Prediction Model
 # =============================
-model_path = "disease_predictor_model.pkl"
+model_path = "climate_disease_predictor_model.pkl"
 try:
     predictor = joblib.load(model_path)
 except FileNotFoundError:
